@@ -62,7 +62,8 @@
       <td>$data</td>
       <td>$email</td>
       <td width= 150px><a href='edit.php? id=$id' class='btn btn-success btn-sm'>Editar</a>
-                <a href='#' class='btn btn-danger btn-sm' data-toggle='modal' data-target='#confirma'>excluir</a>
+                <a href='#' class='btn btn-danger btn-sm' data-toggle='modal' data-target='#confirma' 
+                onclick=".'"'."pegar_dados($id,'$nome')".'"'.">excluir</a>
                  </td>
     
       </tr>";
